@@ -3,3 +3,5 @@ Esta es la historia
 Primer archivo creado para el curso de git
 
 Realmente es el segudo por que el primero se elimino
+
+Se agrega nueva linea para seguir modificando el archivo y poder hacer el ejercicio del curso
