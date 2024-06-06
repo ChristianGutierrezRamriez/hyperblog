@@ -1,7 +1,26 @@
-Esta es la historia
+Por supuesto Creare una estructura basica para un proyecto de control de horas de vuelo en Python. A continuacion, encontraras una guia paso a paso:
 
-Primer archivo creado para el curso de git
-
-Realmente es el segudo por que el primero se elimino
-
-Se agrega nueva linea para seguir modificando el archivo y poder hacer el ejercicio del curso
+Configuracion del Proyecto:
+Crea una carpeta para tu proyecto. Puedes nombrarla ControlHorasVuelo o algo similar.
+Dentro de esa carpeta, crea un archivo llamado main.py. Este sera el punto de entrada de tu aplicacion.
+Estructura de Carpetas:
+Dentro de la carpeta principal, crea las siguientes subcarpetas:
+models: Aqui almacenaras las clases o estructuras de datos relacionadas con el control de horas de vuelo.
+utils: Contendra funciones y utilidades compartidas.
+tests: Para escribir pruebas unitarias.
+data: Si necesitas almacenar datos (por ejemplo, registros de vuelo).
+Modelo de Datos:
+Define una clase Flight en el archivo models.py. Esta clase representara un registro de vuelo y podria contener atributos como fecha, duracion, origen, destino, etc.
+Puedes agregar otros modelos segun tus necesidades (por ejemplo, Pilot, Aircraft, etc.).
+Funcionalidad Principal:
+En main.py, crea una funcion para registrar un nuevo vuelo. Pide al usuario que ingrese los detalles del vuelo (fecha, duracion, etc.) y crea una instancia de la clase Flight.
+Implementa funciones para calcular el total de horas de vuelo acumuladas.
+Pruebas Unitarias:
+En la carpeta tests, crea un archivo llamado test_flight.py.
+Escribe pruebas para verificar que tus funciones de registro y calculo de horas funcionan correctamente.
+Utilidades Compartidas:
+En la carpeta utils, crea un archivo llamado helpers.py.
+Aqui puedes definir funciones u0-tiles, como formateo de fechas o calculos.
+Ejecucion del Programa:
+En main.py, llama a las funciones necesarias para interactuar con el usuario y realizar las operaciones de registro y calculo.
+Recuerda que esta es una estructura basica. Puedes expandirla segun tus necesidades y agregar mas funcionalidades. Buena suerte con tu proyecto de control de horas de vuelo
