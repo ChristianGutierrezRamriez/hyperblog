@@ -13,7 +13,7 @@ class Flight:
         self._in = _in  # Hora de llegada al destino
 
     def calculate_total_hours(self):
-        # Calcula la duración total del vuelo en horas
+        # Calcula la duracion total del vuelo en horas
         total_hours = (self.landing - self.takeoff).total_seconds() / 3600
         return total_hours
 
@@ -41,3 +41,4 @@ if __name__ == "__main__":
 
 #Clase aircraft
 #Atributes Manufacter, tail number, Tipe of engines, Hp engines
+#Se agrega linea al final para ver si genera conflicto con el master al momento de hacer merge
