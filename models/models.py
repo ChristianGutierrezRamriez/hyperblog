@@ -3,7 +3,7 @@
 #Clase flight
 #atributos fecha, origen, destino, duracion, observacion, avion
 
-#se agrega parrafo en master para hacer prueba
+#se agrega parrafo en master para hacer prueba, no se cambia nada de lo anterior, solo se agrego mas lineas que en la rama development
 class Flight:
     def __init__(self, date, out, takeoff, landing, origin, destination, _in):
         self.date = date
