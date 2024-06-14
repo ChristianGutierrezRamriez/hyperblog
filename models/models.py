@@ -3,7 +3,7 @@
 #Clase flight
 #atributos fecha, origen, destino, duracion, observacion, avion
 
-#se agrega parrafo en master para hacer prueba, ahora se modifica linea 6 para generar conflicto
+#se cambia linea desde github remoto
 class Flight:
     def __init__(self, date, out, takeoff, landing, origin, destination, _in):
         self.date = date
